@@ -18,7 +18,7 @@ main{
     width: 100%;
     display: grid;
     grid-template-columns: 25% 7.5% 3.75% 3.75% 20% 7.5% 7.5% 25%;
-    grid-template-rows: 10% 12% 7% 4% 2% 7%  10% 7% 3% 12% 3% 5% 18%;
+    grid-template-rows: 10% 12% 7% 4% 2% 7% 10% 7% 3% 12% 3% 5% 18%;
     grid-template-areas: 
     "header header header header header header header header"
     "top-text-1 top-text-1 top-text-1 top-text-1 top-text-1 top-text-1 top-text-1 top-text-1"
@@ -79,7 +79,7 @@ header .nav-icons{
     grid-area: top-text-1;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-transform: capitalize;
     font-size: 30px;
 }
@@ -312,7 +312,7 @@ header .nav-icons{
     height: 80%;
     width: 50%;
     object-fit: contain;
-    background-color: #fdfdfd;
+    /* background-color: #fdfdfd; */
     
 }
 
